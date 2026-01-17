@@ -1,0 +1,10 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #2a475e 0%, #0f1a24 60%, #0b121a 100%);
+  color: #c7d5e0;
+}

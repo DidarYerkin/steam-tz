@@ -1,0 +1,77 @@
+.steamHeader{
+  background: linear-gradient(#1f2c3a, #1b2838);
+  border-bottom: 1px solid #000;
+}
+.steamHeader__inner{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+}
+
+.steamLogo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  cursor:pointer;
+  user-select:none;
+}
+.steamLogo__mark{
+  width:28px;height:28px;border-radius:50%;
+  background: #66c0f4;
+  display:inline-block;
+}
+.steamLogo__text{
+  font-weight:700;
+  letter-spacing:2px;
+  color:#ffffff;
+}
+
+.steamNav{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.steamNav__btn{
+  background:transparent;
+  border:none;
+  color:#dbe8f5;
+  font-size:12px;
+  letter-spacing:1px;
+  cursor:pointer;
+  padding:6px 8px;
+}
+.steamNav__btn.isActive{
+  color: var(--brand);
+}
+.steamNav__link{
+  color:#b8c6d4;
+  font-size:12px;
+  letter-spacing:1px;
+  opacity:.9;
+}
+
+.steamRight{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.installBtn{
+  background:#5c7e10;
+  border:1px solid #000;
+  color:#eaf6cf;
+  font-size:12px;
+  padding:6px 10px;
+  cursor:pointer;
+}
+.logoutBtn{
+  background:transparent;
+  border:1px solid rgba(255,255,255,.15);
+  color:#c7d5e0;
+  font-size:12px;
+  padding:6px 10px;
+  cursor:pointer;
+}

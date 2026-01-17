@@ -1,0 +1,54 @@
+.libBg{ padding: 24px 0 60px; }
+.libContainer{ max-width:980px; margin:0 auto; padding:0 20px; }
+
+.libTitle{
+  margin: 10px 0 14px;
+  color:#fff;
+  letter-spacing:1px;
+}
+
+.libEmpty{
+  background: rgba(27,40,56,.85);
+  border: 1px solid rgba(0,0,0,.4);
+  padding: 14px;
+  color: var(--muted);
+}
+
+.libGrid{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.libCard{
+  background: rgba(27,40,56,.85);
+  border: 1px solid rgba(0,0,0,.4);
+  padding: 10px;
+}
+.libCard__img{
+  height: 110px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.08);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#8fb6cf;
+}
+.libCard__name{ margin-top:10px; color:#fff; }
+.libCard__row{ margin-top:10px; display:flex; }
+
+.btnInstall{
+  width:100%;
+  background: linear-gradient(#a4d007, #5c7e10);
+  border:1px solid rgba(0,0,0,.7);
+  color:#1b2838;
+  padding: 7px 10px;
+  cursor:pointer;
+  font-weight:800;
+}
+
+@media (max-width: 900px){
+  .libGrid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px){
+  .libGrid{ grid-template-columns: 1fr; }
+}
